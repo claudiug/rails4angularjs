@@ -2,4 +2,6 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 @StartCtrl =($scope) ->
-  $scope.title = "Start Page"
+  $scope.data =
+    posts: [{title: 'My first post', contents: 'content 1.'},
+      {title: 'A walk down memory lane', contents: 'content2'}]
